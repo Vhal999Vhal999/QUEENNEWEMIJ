@@ -14,6 +14,7 @@
 
 aiofiles
 aiogram
+ntgcalls
 aiohttp
 apscheduler
 asyncio
