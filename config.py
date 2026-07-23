@@ -45,13 +45,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 DEEP_API = getenv("DEEP_API")
 
 # Git
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itzshukla/STRANGER-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Vhal999Vhal999/QUEENNEWEMIJ")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+1NRRqUd1replNTM1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/MADARA_X_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_DPZ_WORLDS_lll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hot_dpz_stor")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
