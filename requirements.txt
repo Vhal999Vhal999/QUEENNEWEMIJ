@@ -58,7 +58,7 @@ pyfiglet
 pykeyboard
 pyrotgfork >= 2.2.20
 python-dotenv
-python-telegram-bot>=22.6
+python-telegram-bot>=22.8
 python-whois
 pyshorteners
 pyttsx3
