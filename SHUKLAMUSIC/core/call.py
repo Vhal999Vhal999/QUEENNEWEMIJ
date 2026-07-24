@@ -100,9 +100,13 @@ class Call(PyTgCalls):
         video: bool,
         ffmpeg: str | None = None,
     ) -> types.MediaStream:
+        # Always pass -threads 0 so ffmpeg uses all available cores for
+        # decode/encode — reduces CPU bottleneck and streaming stutter.
+        base_flags = "-threads 0"
+        combined = f"{base_flags} {ffmpeg}" if ffmpeg else base_flags
         return types.MediaStream(
             media_path=source,
-            audio_parameters=types.AudioQuality.HIGH,
+            audio_parameters=types.AudioQuality.MEDIUM,
             video_parameters=types.VideoQuality.HD_720p,
             audio_flags=types.MediaStream.Flags.REQUIRED,
             video_flags=(
@@ -110,7 +114,7 @@ class Call(PyTgCalls):
                 if video
                 else types.MediaStream.Flags.IGNORE
             ),
-            ffmpeg_parameters=ffmpeg,
+            ffmpeg_parameters=combined,
         )
 
     async def _play_on_assistant(
