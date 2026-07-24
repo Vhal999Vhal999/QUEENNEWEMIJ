@@ -1,81 +1,57 @@
-# -----------------------------------------------
-# 🔸 StrangerMusic Project
-# 🔹 Developed & Maintained by: Shashank Shukla (https://github.com/itzshukla)
-# 📅 Copyright © 2022 – All Rights Reserved
-#
-# 📖 License:
-# This source code is open for educational and non-commercial use ONLY.
-# You are required to retain this credit in all copies or substantial portions of this file.
-# Commercial use, redistribution, or removal of this notice is strictly prohibited
-# without prior written permission from the author.
-#
-# ❤️ Made with dedication and love by ItzShukla
-# -----------------------------
-
 aiofiles
-aiogram
-ntgcalls
 aiohttp
 apscheduler
-asyncio
-bard
-stripe==10.7.0
-mysql-connector-python==9.0.0
-telebot
-bing_image_downloader
+youtube-search
 beautifulsoup4
-rapidfuzz
 cloudscraper
-deepai
 dnspython
 emojis
-ffmpeg-python
 Faker
+ffmpeg-python
 gitpython
 gpytranslate
-gtts
 groq
-tgcrypto>=1.2.5
+gtts
+h2
 hachoir
 heroku3
 httpx
 img2pdf
 instaloader
 kurigram
-lexica-api
 motor
+ntgcalls
 numpy
 openai
 opencv-python
 pillow
 psutil
-pymongo
 pickledb
+pymongo
 pycountry
 pycryptodome
 pydub
 pyfiglet
-pykeyboard
-pyrotgfork >= 2.2.20
 python-dotenv
-python-telegram-bot>=22.6
 python-whois
+py-yt-search
 pyshorteners
 pyttsx3
 pytz
-pytube
-py-tgcalls==0.9.7
+py-tgcalls>=2.2.0
 pyyaml
 qrcode
+rapidfuzz
 requests
-search_engine_parser
+search-engine-parser
 speedtest-cli
 SpeechRecognition
 spotipy
+stripe==10.7.0
 telegraph
+tgcrypto>=1.2.5
 unidecode
 wget
-yt-dlp
-youtube-search
+telethon
+yt-dlp>=2026.06.09
 youtube-search-python
-py-yt-search
