@@ -53,5 +53,5 @@ tgcrypto>=1.2.5
 unidecode
 wget
 telethon
-yt-dlp>=2026.06.09
+yt-dlp>=2026.7.4
 youtube-search-python
